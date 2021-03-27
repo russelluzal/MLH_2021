@@ -11,7 +11,6 @@ describe('My Little Hero', function () {
 
         it('TC-001 Page Title is MLH trial', function () {
             let title = browser.getTitle();
-            //browser.pause(2000);
             expect(title).toEqual(exp.title);
         });
 
