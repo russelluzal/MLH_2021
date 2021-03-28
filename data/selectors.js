@@ -1,3 +1,4 @@
+
 const elements = {
     "header": "h3",
     "instruction": "p",
@@ -10,8 +11,9 @@ const elements = {
     "storyList": ".ant-select-item",
     "imageLabel": ".ant-form-item-label",
     "image": "span.ant-upload",
-    "submitButton": ".ant-btn",
-    "tryAgain": ".btn-primary"
+    "submit": ".ant-btn",
+    "tryAgain": ".btn-primary",
+    "errorMessage": ".ant-form-item-explain"
 }
 
 module.exports = elements;

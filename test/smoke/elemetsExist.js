@@ -1,5 +1,5 @@
-import sel from '../../data/selectors'
-import exp from '../../data/expected.json'
+import sel from '../../data/selectors';
+import exp from '../../data/expected.json';
 
 describe('My Little Hero', function () {
 
@@ -43,54 +43,54 @@ describe('My Little Hero', function () {
             expect(label).toEqual(true);
         });
 
-        it('TC-007.a Gender radio buttons (he) is present', function () {
+        it('TC-007.a Gender radio button 1 is present', function () {
             let buttonHe = $$(sel.radioButtons)[0].isDisplayed();
-            expect(buttonHe).toEqual(true)
+            expect(buttonHe).toEqual(true);
         });
 
-        it('TC-007.b Gender radio buttons (she) is present', function () {
+        it('TC-007.b Gender radio button 2 is present', function () {
             let buttonShe = $$(sel.radioButtons)[1].isDisplayed();
-            expect(buttonShe).toEqual(true)
+            expect(buttonShe).toEqual(true);
         });
 
-        it('TC-007.c Gender radio buttons (it) is present', function () {
+        it('TC-007.c Gender radio button 3 is present', function () {
             let buttonIt = $$(sel.radioButtons)[2].isDisplayed();
-            expect(buttonIt).toEqual(true)
+            expect(buttonIt).toEqual(true);
         });
 
-        it('TC-008 Age field  label is present', function () {
+        it('TC-008 Age field label is present', function () {
             let label = $$(sel.requiredLabel)[2].isDisplayed();
-            expect(label).toEqual(true)
+            expect(label).toEqual(true);
         });
 
-        it('TC-009 Age field  is present', function () {
-            let input = $(sel.age).isDisplayed();
-            expect(input).toEqual(true);
+        it('TC-009 Age field is present', function () {
+            let age = $(sel.age).isDisplayed();
+            expect(age).toEqual(true);
         });
 
-        it('TC-010 Story Type  label is present', function () {
+        it('TC-010 Story Type label is present', function () {
             let label = $$(sel.requiredLabel)[3].isDisplayed();
-            expect(label).toEqual(true)
+            expect(label).toEqual(true);
         });
 
         it('TC-011 Story Type dropdown is present', function () {
             let dropdown = $(sel.storyType).isDisplayed();
-            expect(dropdown).toEqual(true)
+            expect(dropdown).toEqual(true);
         });
 
-        it('TC-012 Image field  label is present', function () {
+        it('TC-012 Image field label is present', function () {
             let label = $$(sel.imageLabel)[4].isDisplayed();
-            expect(label).toEqual(true)
+            expect(label).toEqual(true);
         });
 
-        it('TC-013 Image field  is present', function () {
+        it('TC-013 Image field is present', function () {
             let image = $(sel.image).isDisplayed();
-            expect(image).toEqual(true)
+            expect(image).toEqual(true);
         });
 
-        it('TC-014 Submit button  is present', function () {
-            let button = $(sel.submitButton).isDisplayed();
-            expect(button).toEqual(true)
+        it('TC-014 Submit button is present', function () {
+            let submit = $(sel.submit).isDisplayed();
+            expect(submit).toEqual(true);
         });
 
     });
