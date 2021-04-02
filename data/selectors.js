@@ -1,4 +1,3 @@
-
 const elements = {
     "header": "h3",
     "instruction": "p",
