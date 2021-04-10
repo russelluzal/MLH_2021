@@ -26,6 +26,8 @@ const elements = {
     "rebirthSign": "[aria-activedescendant~=\"story_list_1\"]",
     "homePage": ".hero__form",
     "gender": "#gender",
+    "spinUpAge": ".ant-input-number-handler-up",
+    "spinDownAge": ".ant-input-number-handler-down",
     "storyDropdown": ".ant-select-open"
 }
 

@@ -49,5 +49,10 @@
   "storyType6": "Tragedy",
   "storyType7": "Comedy",
   "storyTypePlaceholder": "Type of the story",
-  "copyPast": "qwert12345"
+  "copyPast": "qwert12345",
+  "errorMessageInvalid": "looks like unreal age",
+  "trimmed0": "23",
+  "spinUp1": "1",
+  "spinUp2": "2",
+  "spinDown4": "4"
 }
